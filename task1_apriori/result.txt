@@ -1,0 +1,388 @@
+Initializing Apriori algorithm with minsup: 7
+======= Candidate Sets 1 (C1) =======
+Itemset: (Cotton Candy) | Count: 13
+Itemset: (Cadbury) | Count: 16
+Itemset: (MilkyWay) | Count: 18
+Itemset: (Hershey) | Count: 17
+Itemset: (KitKat) | Count: 15
+Itemset: (Twix) | Count: 14
+Itemset: (AlmondJoy) | Count: 20
+Itemset: (BabyRuth) | Count: 16
+Itemset: (Snickers) | Count: 15
+Itemset: (HeathBar) | Count: 19
+======= Frequent Itemsets 1 (F1) =======
+Frequent Itemset: (Cotton Candy) | Count: 13
+Frequent Itemset: (Cadbury) | Count: 16
+Frequent Itemset: (MilkyWay) | Count: 18
+Frequent Itemset: (Hershey) | Count: 17
+Frequent Itemset: (KitKat) | Count: 15
+Frequent Itemset: (Twix) | Count: 14
+Frequent Itemset: (AlmondJoy) | Count: 20
+Frequent Itemset: (BabyRuth) | Count: 16
+Frequent Itemset: (Snickers) | Count: 15
+Frequent Itemset: (HeathBar) | Count: 19
+
+
+
+After Generation: [('Cotton Candy', 'Cadbury'), ('Cotton Candy', 'MilkyWay'), ('Cotton Candy', 'Hershey'), ('Cotton Candy', 'KitKat'), ('Cotton Candy', 'Snickers'), ('Cotton Candy', 'Twix'), ('Cotton Candy', 'AlmondJoy'), ('Cotton Candy', 'BabyRuth'), ('Cotton Candy', 'HeathBar'), ('Cadbury', 'MilkyWay'), ('Cadbury', 'Hershey'), ('Cadbury', 'KitKat'), ('Cadbury', 'Snickers'), ('Cadbury', 'Twix'), ('Cadbury', 'AlmondJoy'), ('Cadbury', 'BabyRuth'), ('Cadbury', 'HeathBar'), ('MilkyWay', 'Hershey'), ('MilkyWay', 'KitKat'), ('MilkyWay', 'Snickers'), ('MilkyWay', 'Twix'), ('MilkyWay', 'AlmondJoy'), ('MilkyWay', 'BabyRuth'), ('MilkyWay', 'HeathBar'), ('Hershey', 'KitKat'), ('Hershey', 'Snickers'), ('Hershey', 'Twix'), ('Hershey', 'AlmondJoy'), ('Hershey', 'BabyRuth'), ('Hershey', 'HeathBar'), ('KitKat', 'Snickers'), ('KitKat', 'Twix'), ('KitKat', 'AlmondJoy'), ('KitKat', 'BabyRuth'), ('KitKat', 'HeathBar'), ('Snickers', 'Twix'), ('Snickers', 'AlmondJoy'), ('Snickers', 'BabyRuth'), ('Snickers', 'HeathBar'), ('Twix', 'AlmondJoy'), ('Twix', 'BabyRuth'), ('Twix', 'HeathBar'), ('AlmondJoy', 'BabyRuth'), ('AlmondJoy', 'HeathBar'), ('BabyRuth', 'HeathBar')]
+Size of Candidate Itemsets: 45
+After Pruning: [('Cadbury', 'KitKat'), ('KitKat', 'BabyRuth'), ('Snickers', 'Twix'), ('KitKat', 'Snickers'), ('Twix', 'BabyRuth'), ('KitKat', 'AlmondJoy'), ('MilkyWay', 'Hershey'), ('Cotton Candy', 'Hershey'), ('Twix', 'AlmondJoy'), ('AlmondJoy', 'BabyRuth'), ('MilkyWay', 'HeathBar'), ('AlmondJoy', 'HeathBar'), ('Hershey', 'Snickers'), ('MilkyWay', 'Snickers'), ('Cotton Candy', 'Twix'), ('Cotton Candy', 'Snickers'), ('MilkyWay', 'KitKat'), ('MilkyWay', 'AlmondJoy'), ('Cotton Candy', 'KitKat'), ('MilkyWay', 'BabyRuth'), ('BabyRuth', 'HeathBar'), ('Cotton Candy', 'HeathBar'), ('Cadbury', 'Snickers'), ('Snickers', 'AlmondJoy'), ('Cadbury', 'MilkyWay'), ('KitKat', 'Twix'), ('Snickers', 'BabyRuth'), ('Cotton Candy', 'Cadbury'), ('Hershey', 'HeathBar'), ('Cadbury', 'BabyRuth'), ('Cadbury', 'Twix'), ('Cotton Candy', 'BabyRuth'), ('Cadbury', 'AlmondJoy'), ('Cadbury', 'Hershey'), ('Hershey', 'BabyRuth'), ('Twix', 'HeathBar'), ('Cotton Candy', 'AlmondJoy'), ('Hershey', 'KitKat'), ('Hershey', 'AlmondJoy'), ('Hershey', 'Twix'), ('MilkyWay', 'Twix'), ('Snickers', 'HeathBar'), ('Cadbury', 'HeathBar'), ('Cotton Candy', 'MilkyWay'), ('KitKat', 'HeathBar')]
+Size of Candidate Itemsets: 45
+======= Candidate Sets 2 (C2) =======
+Opening file to read from disk...
+Itemset: ('Cadbury', 'KitKat') | Count: 13
+Itemset: ('KitKat', 'BabyRuth') | Count: 9
+Itemset: ('Snickers', 'Twix') | Count: 6
+Itemset: ('KitKat', 'Snickers') | Count: 6
+Itemset: ('Twix', 'BabyRuth') | Count: 8
+Itemset: ('KitKat', 'AlmondJoy') | Count: 12
+Itemset: ('MilkyWay', 'Hershey') | Count: 12
+Itemset: ('Cotton Candy', 'Hershey') | Count: 8
+Itemset: ('Twix', 'AlmondJoy') | Count: 10
+Itemset: ('AlmondJoy', 'BabyRuth') | Count: 15
+Itemset: ('MilkyWay', 'HeathBar') | Count: 14
+Itemset: ('AlmondJoy', 'HeathBar') | Count: 14
+Itemset: ('Hershey', 'Snickers') | Count: 10
+Itemset: ('MilkyWay', 'Snickers') | Count: 11
+Itemset: ('Cotton Candy', 'Twix') | Count: 7
+Itemset: ('Cotton Candy', 'Snickers') | Count: 7
+Itemset: ('MilkyWay', 'KitKat') | Count: 10
+Itemset: ('MilkyWay', 'AlmondJoy') | Count: 14
+Itemset: ('Cotton Candy', 'KitKat') | Count: 7
+Itemset: ('MilkyWay', 'BabyRuth') | Count: 11
+Itemset: ('BabyRuth', 'HeathBar') | Count: 12
+Itemset: ('Cotton Candy', 'HeathBar') | Count: 10
+Itemset: ('Cadbury', 'Snickers') | Count: 7
+Itemset: ('Snickers', 'AlmondJoy') | Count: 12
+Itemset: ('Cadbury', 'MilkyWay') | Count: 10
+Itemset: ('KitKat', 'Twix') | Count: 8
+Itemset: ('Snickers', 'BabyRuth') | Count: 12
+Itemset: ('Cotton Candy', 'Cadbury') | Count: 8
+Itemset: ('Hershey', 'HeathBar') | Count: 11
+Itemset: ('Cadbury', 'BabyRuth') | Count: 10
+Itemset: ('Cadbury', 'Twix') | Count: 9
+Itemset: ('Cotton Candy', 'BabyRuth') | Count: 8
+Itemset: ('Cadbury', 'AlmondJoy') | Count: 14
+Itemset: ('Cadbury', 'Hershey') | Count: 10
+Itemset: ('Hershey', 'BabyRuth') | Count: 11
+Itemset: ('Twix', 'HeathBar') | Count: 12
+Itemset: ('Cotton Candy', 'AlmondJoy') | Count: 9
+Itemset: ('Hershey', 'KitKat') | Count: 11
+Itemset: ('Hershey', 'AlmondJoy') | Count: 14
+Itemset: ('Hershey', 'Twix') | Count: 7
+Itemset: ('MilkyWay', 'Twix') | Count: 10
+Itemset: ('Snickers', 'HeathBar') | Count: 12
+Itemset: ('Cadbury', 'HeathBar') | Count: 11
+Itemset: ('Cotton Candy', 'MilkyWay') | Count: 8
+Itemset: ('KitKat', 'HeathBar') | Count: 10
+Finished counting. Closing file...
+======= Frequent Itemsets 2 (F2) =======
+Frequent Itemset: ('Cadbury', 'KitKat') | Count: 13
+Frequent Itemset: ('KitKat', 'BabyRuth') | Count: 9
+Frequent Itemset: ('Twix', 'BabyRuth') | Count: 8
+Frequent Itemset: ('KitKat', 'AlmondJoy') | Count: 12
+Frequent Itemset: ('MilkyWay', 'Hershey') | Count: 12
+Frequent Itemset: ('Cotton Candy', 'Hershey') | Count: 8
+Frequent Itemset: ('Twix', 'AlmondJoy') | Count: 10
+Frequent Itemset: ('AlmondJoy', 'BabyRuth') | Count: 15
+Frequent Itemset: ('MilkyWay', 'HeathBar') | Count: 14
+Frequent Itemset: ('AlmondJoy', 'HeathBar') | Count: 14
+Frequent Itemset: ('Hershey', 'Snickers') | Count: 10
+Frequent Itemset: ('MilkyWay', 'Snickers') | Count: 11
+Frequent Itemset: ('Cotton Candy', 'Twix') | Count: 7
+Frequent Itemset: ('Cotton Candy', 'Snickers') | Count: 7
+Frequent Itemset: ('MilkyWay', 'KitKat') | Count: 10
+Frequent Itemset: ('MilkyWay', 'AlmondJoy') | Count: 14
+Frequent Itemset: ('Cotton Candy', 'KitKat') | Count: 7
+Frequent Itemset: ('MilkyWay', 'BabyRuth') | Count: 11
+Frequent Itemset: ('BabyRuth', 'HeathBar') | Count: 12
+Frequent Itemset: ('Cotton Candy', 'HeathBar') | Count: 10
+Frequent Itemset: ('Cadbury', 'Snickers') | Count: 7
+Frequent Itemset: ('Snickers', 'AlmondJoy') | Count: 12
+Frequent Itemset: ('Cadbury', 'MilkyWay') | Count: 10
+Frequent Itemset: ('KitKat', 'Twix') | Count: 8
+Frequent Itemset: ('Snickers', 'BabyRuth') | Count: 12
+Frequent Itemset: ('Cotton Candy', 'Cadbury') | Count: 8
+Frequent Itemset: ('Hershey', 'HeathBar') | Count: 11
+Frequent Itemset: ('Cadbury', 'BabyRuth') | Count: 10
+Frequent Itemset: ('Cadbury', 'Twix') | Count: 9
+Frequent Itemset: ('Cotton Candy', 'BabyRuth') | Count: 8
+Frequent Itemset: ('Cadbury', 'AlmondJoy') | Count: 14
+Frequent Itemset: ('Cadbury', 'Hershey') | Count: 10
+Frequent Itemset: ('Hershey', 'BabyRuth') | Count: 11
+Frequent Itemset: ('Twix', 'HeathBar') | Count: 12
+Frequent Itemset: ('Cotton Candy', 'AlmondJoy') | Count: 9
+Frequent Itemset: ('Hershey', 'KitKat') | Count: 11
+Frequent Itemset: ('Hershey', 'AlmondJoy') | Count: 14
+Frequent Itemset: ('Hershey', 'Twix') | Count: 7
+Frequent Itemset: ('MilkyWay', 'Twix') | Count: 10
+Frequent Itemset: ('Snickers', 'HeathBar') | Count: 12
+Frequent Itemset: ('Cadbury', 'HeathBar') | Count: 11
+Frequent Itemset: ('Cotton Candy', 'MilkyWay') | Count: 8
+Frequent Itemset: ('KitKat', 'HeathBar') | Count: 10
+
+
+
+After Generation: [('Cadbury', 'KitKat', 'Snickers'), ('Cadbury', 'KitKat', 'MilkyWay'), ('Cadbury', 'KitKat', 'BabyRuth'), ('Cadbury', 'KitKat', 'Twix'), ('Cadbury', 'KitKat', 'AlmondJoy'), ('Cadbury', 'KitKat', 'Hershey'), ('Cadbury', 'KitKat', 'HeathBar'), ('Cadbury', 'Snickers', 'MilkyWay'), ('Cadbury', 'Snickers', 'BabyRuth'), ('Cadbury', 'Snickers', 'Twix'), ('Cadbury', 'Snickers', 'AlmondJoy'), ('Cadbury', 'Snickers', 'Hershey'), ('Cadbury', 'Snickers', 'HeathBar'), ('Cadbury', 'MilkyWay', 'BabyRuth'), ('Cadbury', 'MilkyWay', 'Twix'), ('Cadbury', 'MilkyWay', 'AlmondJoy'), ('Cadbury', 'MilkyWay', 'Hershey'), ('Cadbury', 'MilkyWay', 'HeathBar'), ('Cadbury', 'BabyRuth', 'Twix'), ('Cadbury', 'BabyRuth', 'AlmondJoy'), ('Cadbury', 'BabyRuth', 'Hershey'), ('Cadbury', 'BabyRuth', 'HeathBar'), ('Cadbury', 'Twix', 'AlmondJoy'), ('Cadbury', 'Twix', 'Hershey'), ('Cadbury', 'Twix', 'HeathBar'), ('Cadbury', 'AlmondJoy', 'Hershey'), ('Cadbury', 'AlmondJoy', 'HeathBar'), ('Cadbury', 'Hershey', 'HeathBar'), ('KitKat', 'BabyRuth', 'AlmondJoy'), ('KitKat', 'BabyRuth', 'Twix'), ('KitKat', 'BabyRuth', 'HeathBar'), ('KitKat', 'AlmondJoy', 'Twix'), ('KitKat', 'AlmondJoy', 'HeathBar'), ('KitKat', 'Twix', 'HeathBar'), ('Twix', 'BabyRuth', 'AlmondJoy'), ('Twix', 'BabyRuth', 'HeathBar'), ('Twix', 'AlmondJoy', 'HeathBar'), ('MilkyWay', 'Hershey', 'HeathBar'), ('MilkyWay', 'Hershey', 'Snickers'), ('MilkyWay', 'Hershey', 'KitKat'), ('MilkyWay', 'Hershey', 'AlmondJoy'), ('MilkyWay', 'Hershey', 'BabyRuth'), ('MilkyWay', 'Hershey', 'Twix'), ('MilkyWay', 'HeathBar', 'Snickers'), ('MilkyWay', 'HeathBar', 'KitKat'), ('MilkyWay', 'HeathBar', 'AlmondJoy'), ('MilkyWay', 'HeathBar', 'BabyRuth'), ('MilkyWay', 'HeathBar', 'Twix'), ('MilkyWay', 'Snickers', 'KitKat'), ('MilkyWay', 'Snickers', 'AlmondJoy'), ('MilkyWay', 'Snickers', 'BabyRuth'), ('MilkyWay', 'Snickers', 'Twix'), ('MilkyWay', 'KitKat', 'AlmondJoy'), ('MilkyWay', 'KitKat', 'BabyRuth'), ('MilkyWay', 'KitKat', 'Twix'), ('MilkyWay', 'AlmondJoy', 'BabyRuth'), ('MilkyWay', 'AlmondJoy', 'Twix'), ('MilkyWay', 'BabyRuth', 'Twix'), ('Cotton Candy', 'Hershey', 'Twix'), ('Cotton Candy', 'Hershey', 'Snickers'), ('Cotton Candy', 'Hershey', 'KitKat'), ('Cotton Candy', 'Hershey', 'HeathBar'), ('Cotton Candy', 'Hershey', 'Cadbury'), ('Cotton Candy', 'Hershey', 'BabyRuth'), ('Cotton Candy', 'Hershey', 'AlmondJoy'), ('Cotton Candy', 'Hershey', 'MilkyWay'), ('Cotton Candy', 'Twix', 'Snickers'), ('Cotton Candy', 'Twix', 'KitKat'), ('Cotton Candy', 'Twix', 'HeathBar'), ('Cotton Candy', 'Twix', 'Cadbury'), ('Cotton Candy', 'Twix', 'BabyRuth'), ('Cotton Candy', 'Twix', 'AlmondJoy'), ('Cotton Candy', 'Twix', 'MilkyWay'), ('Cotton Candy', 'Snickers', 'KitKat'), ('Cotton Candy', 'Snickers', 'HeathBar'), ('Cotton Candy', 'Snickers', 'Cadbury'), ('Cotton Candy', 'Snickers', 'BabyRuth'), ('Cotton Candy', 'Snickers', 'AlmondJoy'), ('Cotton Candy', 'Snickers', 'MilkyWay'), ('Cotton Candy', 'KitKat', 'HeathBar'), ('Cotton Candy', 'KitKat', 'Cadbury'), ('Cotton Candy', 'KitKat', 'BabyRuth'), ('Cotton Candy', 'KitKat', 'AlmondJoy'), ('Cotton Candy', 'KitKat', 'MilkyWay'), ('Cotton Candy', 'HeathBar', 'Cadbury'), ('Cotton Candy', 'HeathBar', 'BabyRuth'), ('Cotton Candy', 'HeathBar', 'AlmondJoy'), ('Cotton Candy', 'HeathBar', 'MilkyWay'), ('Cotton Candy', 'Cadbury', 'BabyRuth'), ('Cotton Candy', 'Cadbury', 'AlmondJoy'), ('Cotton Candy', 'Cadbury', 'MilkyWay'), ('Cotton Candy', 'BabyRuth', 'AlmondJoy'), ('Cotton Candy', 'BabyRuth', 'MilkyWay'), ('Cotton Candy', 'AlmondJoy', 'MilkyWay'), ('AlmondJoy', 'BabyRuth', 'HeathBar'), ('Hershey', 'Snickers', 'HeathBar'), ('Hershey', 'Snickers', 'BabyRuth'), ('Hershey', 'Snickers', 'KitKat'), ('Hershey', 'Snickers', 'AlmondJoy'), ('Hershey', 'Snickers', 'Twix'), ('Hershey', 'HeathBar', 'BabyRuth'), ('Hershey', 'HeathBar', 'KitKat'), ('Hershey', 'HeathBar', 'AlmondJoy'), ('Hershey', 'HeathBar', 'Twix'), ('Hershey', 'BabyRuth', 'KitKat'), ('Hershey', 'BabyRuth', 'AlmondJoy'), ('Hershey', 'BabyRuth', 'Twix'), ('Hershey', 'KitKat', 'AlmondJoy'), ('Hershey', 'KitKat', 'Twix'), ('Hershey', 'AlmondJoy', 'Twix'), ('Snickers', 'AlmondJoy', 'BabyRuth'), ('Snickers', 'AlmondJoy', 'HeathBar'), ('Snickers', 'BabyRuth', 'HeathBar')]
+Size of Candidate Itemsets: 113
+Pruning candidate: ('Cadbury', 'KitKat', 'Snickers') since subset: ('KitKat', 'Snickers') is infrequent
+Pruning candidate: ('Cadbury', 'Snickers', 'Twix') since subset: ('Snickers', 'Twix') is infrequent
+Pruning candidate: ('MilkyWay', 'Snickers', 'Twix') since subset: ('Snickers', 'Twix') is infrequent
+Pruning candidate: ('Hershey', 'Snickers', 'Twix') since subset: ('Snickers', 'Twix') is infrequent
+After Pruning: [('Hershey', 'Snickers', 'AlmondJoy'), ('Hershey', 'AlmondJoy', 'Twix'), ('Cotton Candy', 'Twix', 'HeathBar'), ('MilkyWay', 'KitKat', 'Twix'), ('Cadbury', 'AlmondJoy', 'Hershey'), ('Cadbury', 'BabyRuth', 'AlmondJoy'), ('Hershey', 'BabyRuth', 'Twix'), ('MilkyWay', 'AlmondJoy', 'BabyRuth'), ('Snickers', 'AlmondJoy', 'BabyRuth'), ('Hershey', 'Snickers', 'HeathBar'), ('Cotton Candy', 'KitKat', 'AlmondJoy'), ('Cotton Candy', 'Cadbury', 'BabyRuth'), ('Cotton Candy', 'Snickers', 'KitKat'), ('Cotton Candy', 'Twix', 'AlmondJoy'), ('Cotton Candy', 'Hershey', 'HeathBar'), ('MilkyWay', 'HeathBar', 'Snickers'), ('Cotton Candy', 'Hershey', 'Twix'), ('Cotton Candy', 'Hershey', 'Cadbury'), ('Cotton Candy', 'Cadbury', 'MilkyWay'), ('Hershey', 'HeathBar', 'KitKat'), ('MilkyWay', 'Hershey', 'Twix'), ('Cadbury', 'MilkyWay', 'Twix'), ('Cotton Candy', 'HeathBar', 'Cadbury'), ('Cadbury', 'BabyRuth', 'HeathBar'), ('KitKat', 'BabyRuth', 'HeathBar'), ('MilkyWay', 'HeathBar', 'Twix'), ('Cotton Candy', 'KitKat', 'HeathBar'), ('MilkyWay', 'Snickers', 'KitKat'), ('Hershey', 'BabyRuth', 'AlmondJoy'), ('MilkyWay', 'HeathBar', 'KitKat'), ('Hershey', 'Snickers', 'KitKat'), ('Cotton Candy', 'KitKat', 'BabyRuth'), ('Cotton Candy', 'Twix', 'BabyRuth'), ('Cotton Candy', 'BabyRuth', 'AlmondJoy'), ('AlmondJoy', 'BabyRuth', 'HeathBar'), ('MilkyWay', 'HeathBar', 'AlmondJoy'), ('MilkyWay', 'Hershey', 'KitKat'), ('Cadbury', 'Twix', 'AlmondJoy'), ('KitKat', 'BabyRuth', 'AlmondJoy'), ('Hershey', 'KitKat', 'AlmondJoy'), ('Cotton Candy', 'KitKat', 'MilkyWay'), ('Cadbury', 'BabyRuth', 'Hershey'), ('KitKat', 'AlmondJoy', 'Twix'), ('Cotton Candy', 'Twix', 'MilkyWay'), ('Cotton Candy', 'BabyRuth', 'MilkyWay'), ('Cotton Candy', 'Hershey', 'KitKat'), ('Cadbury', 'Twix', 'HeathBar'), ('MilkyWay', 'BabyRuth', 'Twix'), ('MilkyWay', 'KitKat', 'BabyRuth'), ('Cotton Candy', 'Twix', 'Snickers'), ('Cotton Candy', 'Snickers', 'Cadbury'), ('Hershey', 'HeathBar', 'Twix'), ('MilkyWay', 'Snickers', 'AlmondJoy'), ('Cadbury', 'BabyRuth', 'Twix'), ('Cadbury', 'Snickers', 'MilkyWay'), ('MilkyWay', 'AlmondJoy', 'Twix'), ('Cadbury', 'MilkyWay', 'Hershey'), ('MilkyWay', 'Hershey', 'AlmondJoy'), ('Hershey', 'KitKat', 'Twix'), ('Cotton Candy', 'Hershey', 'Snickers'), ('Cadbury', 'Snickers', 'BabyRuth'), ('Cotton Candy', 'KitKat', 'Cadbury'), ('Hershey', 'HeathBar', 'AlmondJoy'), ('Cotton Candy', 'HeathBar', 'MilkyWay'), ('Cadbury', 'KitKat', 'Hershey'), ('Cadbury', 'MilkyWay', 'AlmondJoy'), ('Cotton Candy', 'HeathBar', 'BabyRuth'), ('Cadbury', 'KitKat', 'MilkyWay'), ('Cadbury', 'Twix', 'Hershey'), ('Cotton Candy', 'AlmondJoy', 'MilkyWay'), ('MilkyWay', 'HeathBar', 'BabyRuth'), ('Cadbury', 'Hershey', 'HeathBar'), ('MilkyWay', 'KitKat', 'AlmondJoy'), ('MilkyWay', 'Hershey', 'HeathBar'), ('MilkyWay', 'Snickers', 'BabyRuth'), ('KitKat', 'AlmondJoy', 'HeathBar'), ('Cotton Candy', 'Hershey', 'BabyRuth'), ('Cadbury', 'MilkyWay', 'HeathBar'), ('Snickers', 'AlmondJoy', 'HeathBar'), ('Cadbury', 'KitKat', 'BabyRuth'), ('Cotton Candy', 'Twix', 'Cadbury'), ('Cotton Candy', 'Snickers', 'BabyRuth'), ('Hershey', 'HeathBar', 'BabyRuth'), ('Cotton Candy', 'Hershey', 'MilkyWay'), ('Cadbury', 'KitKat', 'HeathBar'), ('Cadbury', 'Snickers', 'Hershey'), ('Cotton Candy', 'Snickers', 'MilkyWay'), ('Cadbury', 'MilkyWay', 'BabyRuth'), ('Cotton Candy', 'Snickers', 'HeathBar'), ('Hershey', 'Snickers', 'BabyRuth'), ('Cadbury', 'Snickers', 'AlmondJoy'), ('MilkyWay', 'Hershey', 'BabyRuth'), ('Twix', 'BabyRuth', 'AlmondJoy'), ('Cotton Candy', 'Twix', 'KitKat'), ('KitKat', 'Twix', 'HeathBar'), ('Snickers', 'BabyRuth', 'HeathBar'), ('Twix', 'AlmondJoy', 'HeathBar'), ('Cadbury', 'AlmondJoy', 'HeathBar'), ('Cadbury', 'KitKat', 'AlmondJoy'), ('Cotton Candy', 'Cadbury', 'AlmondJoy'), ('Cotton Candy', 'HeathBar', 'AlmondJoy'), ('Hershey', 'BabyRuth', 'KitKat'), ('Twix', 'BabyRuth', 'HeathBar'), ('Cotton Candy', 'Snickers', 'AlmondJoy'), ('MilkyWay', 'Hershey', 'Snickers'), ('Cadbury', 'Snickers', 'HeathBar'), ('KitKat', 'BabyRuth', 'Twix'), ('Cotton Candy', 'Hershey', 'AlmondJoy'), ('Cadbury', 'KitKat', 'Twix')]
+Size of Candidate Itemsets: 109
+======= Candidate Sets 3 (C3) =======
+Opening file to read from disk...
+Itemset: ('Hershey', 'Snickers', 'AlmondJoy') | Count: 8
+Itemset: ('Hershey', 'AlmondJoy', 'Twix') | Count: 5
+Itemset: ('Cotton Candy', 'Twix', 'HeathBar') | Count: 6
+Itemset: ('MilkyWay', 'KitKat', 'Twix') | Count: 6
+Itemset: ('Cadbury', 'AlmondJoy', 'Hershey') | Count: 9
+Itemset: ('Cadbury', 'BabyRuth', 'AlmondJoy') | Count: 10
+Itemset: ('Hershey', 'BabyRuth', 'Twix') | Count: 4
+Itemset: ('MilkyWay', 'AlmondJoy', 'BabyRuth') | Count: 10
+Itemset: ('Snickers', 'AlmondJoy', 'BabyRuth') | Count: 11
+Itemset: ('Hershey', 'Snickers', 'HeathBar') | Count: 7
+Itemset: ('Cotton Candy', 'KitKat', 'AlmondJoy') | Count: 5
+Itemset: ('Cotton Candy', 'Cadbury', 'BabyRuth') | Count: 5
+Itemset: ('Cotton Candy', 'Snickers', 'KitKat') | Count: 2
+Itemset: ('Cotton Candy', 'Twix', 'AlmondJoy') | Count: 4
+Itemset: ('Cotton Candy', 'Hershey', 'HeathBar') | Count: 5
+Itemset: ('MilkyWay', 'HeathBar', 'Snickers') | Count: 9
+Itemset: ('Cotton Candy', 'Hershey', 'Twix') | Count: 3
+Itemset: ('Cotton Candy', 'Hershey', 'Cadbury') | Count: 4
+Itemset: ('Cotton Candy', 'Cadbury', 'MilkyWay') | Count: 4
+Itemset: ('Hershey', 'HeathBar', 'KitKat') | Count: 6
+Itemset: ('MilkyWay', 'Hershey', 'Twix') | Count: 5
+Itemset: ('Cadbury', 'MilkyWay', 'Twix') | Count: 6
+Itemset: ('Cotton Candy', 'HeathBar', 'Cadbury') | Count: 5
+Itemset: ('Cadbury', 'BabyRuth', 'HeathBar') | Count: 7
+Itemset: ('KitKat', 'BabyRuth', 'HeathBar') | Count: 6
+Itemset: ('MilkyWay', 'HeathBar', 'Twix') | Count: 8
+Itemset: ('Cotton Candy', 'KitKat', 'HeathBar') | Count: 4
+Itemset: ('MilkyWay', 'Snickers', 'KitKat') | Count: 3
+Itemset: ('Hershey', 'BabyRuth', 'AlmondJoy') | Count: 10
+Itemset: ('MilkyWay', 'HeathBar', 'KitKat') | Count: 7
+Itemset: ('Hershey', 'Snickers', 'KitKat') | Count: 5
+Itemset: ('Cotton Candy', 'KitKat', 'BabyRuth') | Count: 4
+Itemset: ('Cotton Candy', 'Twix', 'BabyRuth') | Count: 4
+Itemset: ('Cotton Candy', 'BabyRuth', 'AlmondJoy') | Count: 7
+Itemset: ('AlmondJoy', 'BabyRuth', 'HeathBar') | Count: 11
+Itemset: ('MilkyWay', 'HeathBar', 'AlmondJoy') | Count: 10
+Itemset: ('MilkyWay', 'Hershey', 'KitKat') | Count: 8
+Itemset: ('Cadbury', 'Twix', 'AlmondJoy') | Count: 7
+Itemset: ('KitKat', 'BabyRuth', 'AlmondJoy') | Count: 8
+Itemset: ('Hershey', 'KitKat', 'AlmondJoy') | Count: 9
+Itemset: ('Cotton Candy', 'KitKat', 'MilkyWay') | Count: 4
+Itemset: ('Cadbury', 'BabyRuth', 'Hershey') | Count: 6
+Itemset: ('KitKat', 'AlmondJoy', 'Twix') | Count: 6
+Itemset: ('Cotton Candy', 'Twix', 'MilkyWay') | Count: 3
+Itemset: ('Cotton Candy', 'BabyRuth', 'MilkyWay') | Count: 5
+Itemset: ('Cotton Candy', 'Hershey', 'KitKat') | Count: 4
+Itemset: ('Cadbury', 'Twix', 'HeathBar') | Count: 8
+Itemset: ('MilkyWay', 'BabyRuth', 'Twix') | Count: 5
+Itemset: ('MilkyWay', 'KitKat', 'BabyRuth') | Count: 5
+Itemset: ('Cotton Candy', 'Twix', 'Snickers') | Count: 3
+Itemset: ('Cotton Candy', 'Snickers', 'Cadbury') | Count: 2
+Itemset: ('Hershey', 'HeathBar', 'Twix') | Count: 5
+Itemset: ('MilkyWay', 'Snickers', 'AlmondJoy') | Count: 9
+Itemset: ('Cadbury', 'BabyRuth', 'Twix') | Count: 5
+Itemset: ('Cadbury', 'Snickers', 'MilkyWay') | Count: 4
+Itemset: ('MilkyWay', 'AlmondJoy', 'Twix') | Count: 7
+Itemset: ('Cadbury', 'MilkyWay', 'Hershey') | Count: 6
+Itemset: ('MilkyWay', 'Hershey', 'AlmondJoy') | Count: 10
+Itemset: ('Hershey', 'KitKat', 'Twix') | Count: 4
+Itemset: ('Cotton Candy', 'Hershey', 'Snickers') | Count: 4
+Itemset: ('Cadbury', 'Snickers', 'BabyRuth') | Count: 7
+Itemset: ('Cotton Candy', 'KitKat', 'Cadbury') | Count: 6
+Itemset: ('Hershey', 'HeathBar', 'AlmondJoy') | Count: 8
+Itemset: ('Cotton Candy', 'HeathBar', 'MilkyWay') | Count: 6
+Itemset: ('Cadbury', 'KitKat', 'Hershey') | Count: 9
+Itemset: ('Cadbury', 'MilkyWay', 'AlmondJoy') | Count: 8
+Itemset: ('Cotton Candy', 'HeathBar', 'BabyRuth') | Count: 7
+Itemset: ('Cadbury', 'KitKat', 'MilkyWay') | Count: 8
+Itemset: ('Cadbury', 'Twix', 'Hershey') | Count: 4
+Itemset: ('Cotton Candy', 'AlmondJoy', 'MilkyWay') | Count: 5
+Itemset: ('MilkyWay', 'HeathBar', 'BabyRuth') | Count: 8
+Itemset: ('Cadbury', 'Hershey', 'HeathBar') | Count: 5
+Itemset: ('MilkyWay', 'KitKat', 'AlmondJoy') | Count: 7
+Itemset: ('MilkyWay', 'Hershey', 'HeathBar') | Count: 8
+Itemset: ('MilkyWay', 'Snickers', 'BabyRuth') | Count: 9
+Itemset: ('KitKat', 'AlmondJoy', 'HeathBar') | Count: 7
+Itemset: ('Cotton Candy', 'Hershey', 'BabyRuth') | Count: 5
+Itemset: ('Cadbury', 'MilkyWay', 'HeathBar') | Count: 7
+Itemset: ('Snickers', 'AlmondJoy', 'HeathBar') | Count: 9
+Itemset: ('Cadbury', 'KitKat', 'BabyRuth') | Count: 7
+Itemset: ('Cotton Candy', 'Twix', 'Cadbury') | Count: 5
+Itemset: ('Cotton Candy', 'Snickers', 'BabyRuth') | Count: 5
+Itemset: ('Hershey', 'HeathBar', 'BabyRuth') | Count: 7
+Itemset: ('Cotton Candy', 'Hershey', 'MilkyWay') | Count: 5
+Itemset: ('Cadbury', 'KitKat', 'HeathBar') | Count: 8
+Itemset: ('Cadbury', 'Snickers', 'Hershey') | Count: 4
+Itemset: ('Cotton Candy', 'Snickers', 'MilkyWay') | Count: 5
+Itemset: ('Cadbury', 'MilkyWay', 'BabyRuth') | Count: 5
+Itemset: ('Cotton Candy', 'Snickers', 'HeathBar') | Count: 7
+Itemset: ('Hershey', 'Snickers', 'BabyRuth') | Count: 8
+Itemset: ('Cadbury', 'Snickers', 'AlmondJoy') | Count: 7
+Itemset: ('MilkyWay', 'Hershey', 'BabyRuth') | Count: 8
+Itemset: ('Twix', 'BabyRuth', 'AlmondJoy') | Count: 8
+Itemset: ('Cotton Candy', 'Twix', 'KitKat') | Count: 4
+Itemset: ('KitKat', 'Twix', 'HeathBar') | Count: 7
+Itemset: ('Snickers', 'BabyRuth', 'HeathBar') | Count: 9
+Itemset: ('Twix', 'AlmondJoy', 'HeathBar') | Count: 8
+Itemset: ('Cadbury', 'AlmondJoy', 'HeathBar') | Count: 9
+Itemset: ('Cadbury', 'KitKat', 'AlmondJoy') | Count: 11
+Itemset: ('Cotton Candy', 'Cadbury', 'AlmondJoy') | Count: 7
+Itemset: ('Cotton Candy', 'HeathBar', 'AlmondJoy') | Count: 6
+Itemset: ('Hershey', 'BabyRuth', 'KitKat') | Count: 7
+Itemset: ('Twix', 'BabyRuth', 'HeathBar') | Count: 6
+Itemset: ('Cotton Candy', 'Snickers', 'AlmondJoy') | Count: 4
+Itemset: ('MilkyWay', 'Hershey', 'Snickers') | Count: 7
+Itemset: ('Cadbury', 'Snickers', 'HeathBar') | Count: 5
+Itemset: ('KitKat', 'BabyRuth', 'Twix') | Count: 4
+Itemset: ('Cotton Candy', 'Hershey', 'AlmondJoy') | Count: 6
+Itemset: ('Cadbury', 'KitKat', 'Twix') | Count: 7
+Finished counting. Closing file...
+======= Frequent Itemsets 3 (F3) =======
+Frequent Itemset: ('Hershey', 'Snickers', 'AlmondJoy') | Count: 8
+Frequent Itemset: ('Cadbury', 'AlmondJoy', 'Hershey') | Count: 9
+Frequent Itemset: ('Cadbury', 'BabyRuth', 'AlmondJoy') | Count: 10
+Frequent Itemset: ('MilkyWay', 'AlmondJoy', 'BabyRuth') | Count: 10
+Frequent Itemset: ('Snickers', 'AlmondJoy', 'BabyRuth') | Count: 11
+Frequent Itemset: ('Hershey', 'Snickers', 'HeathBar') | Count: 7
+Frequent Itemset: ('MilkyWay', 'HeathBar', 'Snickers') | Count: 9
+Frequent Itemset: ('Cadbury', 'BabyRuth', 'HeathBar') | Count: 7
+Frequent Itemset: ('MilkyWay', 'HeathBar', 'Twix') | Count: 8
+Frequent Itemset: ('Hershey', 'BabyRuth', 'AlmondJoy') | Count: 10
+Frequent Itemset: ('MilkyWay', 'HeathBar', 'KitKat') | Count: 7
+Frequent Itemset: ('Cotton Candy', 'BabyRuth', 'AlmondJoy') | Count: 7
+Frequent Itemset: ('AlmondJoy', 'BabyRuth', 'HeathBar') | Count: 11
+Frequent Itemset: ('MilkyWay', 'HeathBar', 'AlmondJoy') | Count: 10
+Frequent Itemset: ('MilkyWay', 'Hershey', 'KitKat') | Count: 8
+Frequent Itemset: ('Cadbury', 'Twix', 'AlmondJoy') | Count: 7
+Frequent Itemset: ('KitKat', 'BabyRuth', 'AlmondJoy') | Count: 8
+Frequent Itemset: ('Hershey', 'KitKat', 'AlmondJoy') | Count: 9
+Frequent Itemset: ('Cadbury', 'Twix', 'HeathBar') | Count: 8
+Frequent Itemset: ('MilkyWay', 'Snickers', 'AlmondJoy') | Count: 9
+Frequent Itemset: ('MilkyWay', 'AlmondJoy', 'Twix') | Count: 7
+Frequent Itemset: ('MilkyWay', 'Hershey', 'AlmondJoy') | Count: 10
+Frequent Itemset: ('Cadbury', 'Snickers', 'BabyRuth') | Count: 7
+Frequent Itemset: ('Hershey', 'HeathBar', 'AlmondJoy') | Count: 8
+Frequent Itemset: ('Cadbury', 'KitKat', 'Hershey') | Count: 9
+Frequent Itemset: ('Cadbury', 'MilkyWay', 'AlmondJoy') | Count: 8
+Frequent Itemset: ('Cotton Candy', 'HeathBar', 'BabyRuth') | Count: 7
+Frequent Itemset: ('Cadbury', 'KitKat', 'MilkyWay') | Count: 8
+Frequent Itemset: ('MilkyWay', 'HeathBar', 'BabyRuth') | Count: 8
+Frequent Itemset: ('MilkyWay', 'KitKat', 'AlmondJoy') | Count: 7
+Frequent Itemset: ('MilkyWay', 'Hershey', 'HeathBar') | Count: 8
+Frequent Itemset: ('MilkyWay', 'Snickers', 'BabyRuth') | Count: 9
+Frequent Itemset: ('KitKat', 'AlmondJoy', 'HeathBar') | Count: 7
+Frequent Itemset: ('Cadbury', 'MilkyWay', 'HeathBar') | Count: 7
+Frequent Itemset: ('Snickers', 'AlmondJoy', 'HeathBar') | Count: 9
+Frequent Itemset: ('Cadbury', 'KitKat', 'BabyRuth') | Count: 7
+Frequent Itemset: ('Hershey', 'HeathBar', 'BabyRuth') | Count: 7
+Frequent Itemset: ('Cadbury', 'KitKat', 'HeathBar') | Count: 8
+Frequent Itemset: ('Cotton Candy', 'Snickers', 'HeathBar') | Count: 7
+Frequent Itemset: ('Hershey', 'Snickers', 'BabyRuth') | Count: 8
+Frequent Itemset: ('Cadbury', 'Snickers', 'AlmondJoy') | Count: 7
+Frequent Itemset: ('MilkyWay', 'Hershey', 'BabyRuth') | Count: 8
+Frequent Itemset: ('Twix', 'BabyRuth', 'AlmondJoy') | Count: 8
+Frequent Itemset: ('KitKat', 'Twix', 'HeathBar') | Count: 7
+Frequent Itemset: ('Snickers', 'BabyRuth', 'HeathBar') | Count: 9
+Frequent Itemset: ('Twix', 'AlmondJoy', 'HeathBar') | Count: 8
+Frequent Itemset: ('Cadbury', 'AlmondJoy', 'HeathBar') | Count: 9
+Frequent Itemset: ('Cadbury', 'KitKat', 'AlmondJoy') | Count: 11
+Frequent Itemset: ('Cotton Candy', 'Cadbury', 'AlmondJoy') | Count: 7
+Frequent Itemset: ('Hershey', 'BabyRuth', 'KitKat') | Count: 7
+Frequent Itemset: ('MilkyWay', 'Hershey', 'Snickers') | Count: 7
+Frequent Itemset: ('Cadbury', 'KitKat', 'Twix') | Count: 7
+
+
+
+After Generation: [('Hershey', 'Snickers', 'AlmondJoy', 'HeathBar'), ('Hershey', 'Snickers', 'AlmondJoy', 'BabyRuth'), ('Hershey', 'Snickers', 'HeathBar', 'BabyRuth'), ('MilkyWay', 'Hershey', 'AlmondJoy', 'HeathBar'), ('MilkyWay', 'Hershey', 'AlmondJoy', 'BabyRuth'), ('MilkyWay', 'Hershey', 'AlmondJoy', 'KitKat'), ('MilkyWay', 'Hershey', 'AlmondJoy', 'Snickers'), ('MilkyWay', 'Hershey', 'HeathBar', 'BabyRuth'), ('MilkyWay', 'Hershey', 'HeathBar', 'KitKat'), ('MilkyWay', 'Hershey', 'HeathBar', 'Snickers'), ('MilkyWay', 'Hershey', 'BabyRuth', 'KitKat'), ('MilkyWay', 'Hershey', 'BabyRuth', 'Snickers'), ('MilkyWay', 'Hershey', 'KitKat', 'Snickers'), ('Cadbury', 'Snickers', 'BabyRuth', 'AlmondJoy'), ('Hershey', 'HeathBar', 'AlmondJoy', 'BabyRuth'), ('Cadbury', 'AlmondJoy', 'Hershey', 'HeathBar'), ('Cadbury', 'BabyRuth', 'AlmondJoy', 'HeathBar'), ('Cadbury', 'KitKat', 'Hershey', 'MilkyWay'), ('Cadbury', 'KitKat', 'Hershey', 'BabyRuth'), ('Cadbury', 'KitKat', 'Hershey', 'HeathBar'), ('Cadbury', 'KitKat', 'Hershey', 'AlmondJoy'), ('Cadbury', 'KitKat', 'Hershey', 'Twix'), ('Cadbury', 'KitKat', 'MilkyWay', 'BabyRuth'), ('Cadbury', 'KitKat', 'MilkyWay', 'HeathBar'), ('Cadbury', 'KitKat', 'MilkyWay', 'AlmondJoy'), ('Cadbury', 'KitKat', 'MilkyWay', 'Twix'), ('Cadbury', 'KitKat', 'BabyRuth', 'HeathBar'), ('Cadbury', 'KitKat', 'BabyRuth', 'AlmondJoy'), ('Cadbury', 'KitKat', 'BabyRuth', 'Twix'), ('Cadbury', 'KitKat', 'HeathBar', 'AlmondJoy'), ('Cadbury', 'KitKat', 'HeathBar', 'Twix'), ('Cadbury', 'KitKat', 'AlmondJoy', 'Twix'), ('Snickers', 'AlmondJoy', 'BabyRuth', 'HeathBar'), ('MilkyWay', 'AlmondJoy', 'BabyRuth', 'Twix'), ('Cadbury', 'MilkyWay', 'AlmondJoy', 'HeathBar'), ('MilkyWay', 'HeathBar', 'Snickers', 'BabyRuth'), ('MilkyWay', 'HeathBar', 'Snickers', 'Twix'), ('MilkyWay', 'HeathBar', 'Snickers', 'KitKat'), ('MilkyWay', 'HeathBar', 'Snickers', 'AlmondJoy'), ('MilkyWay', 'HeathBar', 'BabyRuth', 'Twix'), ('MilkyWay', 'HeathBar', 'BabyRuth', 'KitKat'), ('MilkyWay', 'HeathBar', 'BabyRuth', 'AlmondJoy'), ('MilkyWay', 'HeathBar', 'Twix', 'KitKat'), ('MilkyWay', 'HeathBar', 'Twix', 'AlmondJoy'), ('MilkyWay', 'HeathBar', 'KitKat', 'AlmondJoy'), ('MilkyWay', 'Snickers', 'BabyRuth', 'AlmondJoy'), ('Hershey', 'BabyRuth', 'AlmondJoy', 'KitKat'), ('Cadbury', 'Twix', 'AlmondJoy', 'HeathBar')]
+Size of Candidate Itemsets: 48
+Pruning candidate: ('MilkyWay', 'Hershey', 'HeathBar', 'KitKat') since subset: ('Hershey', 'HeathBar', 'KitKat') is infrequent
+Pruning candidate: ('Cadbury', 'AlmondJoy', 'Hershey', 'HeathBar') since subset: ('Cadbury', 'Hershey', 'HeathBar') is infrequent
+Pruning candidate: ('Cadbury', 'KitKat', 'Hershey', 'HeathBar') since subset: ('Cadbury', 'Hershey', 'HeathBar') is infrequent
+Pruning candidate: ('Cadbury', 'KitKat', 'MilkyWay', 'BabyRuth') since subset: ('Cadbury', 'MilkyWay', 'BabyRuth') is infrequent
+Pruning candidate: ('Cadbury', 'KitKat', 'MilkyWay', 'Twix') since subset: ('Cadbury', 'MilkyWay', 'Twix') is infrequent
+Pruning candidate: ('Cadbury', 'KitKat', 'BabyRuth', 'HeathBar') since subset: ('KitKat', 'BabyRuth', 'HeathBar') is infrequent
+Pruning candidate: ('Cadbury', 'KitKat', 'BabyRuth', 'Twix') since subset: ('Cadbury', 'BabyRuth', 'Twix') is infrequent
+Pruning candidate: ('Cadbury', 'KitKat', 'AlmondJoy', 'Twix') since subset: ('KitKat', 'AlmondJoy', 'Twix') is infrequent
+Pruning candidate: ('MilkyWay', 'AlmondJoy', 'BabyRuth', 'Twix') since subset: ('MilkyWay', 'BabyRuth', 'Twix') is infrequent
+Pruning candidate: ('MilkyWay', 'HeathBar', 'Snickers', 'KitKat') since subset: ('MilkyWay', 'Snickers', 'KitKat') is infrequent
+Pruning candidate: ('MilkyWay', 'HeathBar', 'BabyRuth', 'Twix') since subset: ('MilkyWay', 'BabyRuth', 'Twix') is infrequent
+After Pruning: [('MilkyWay', 'HeathBar', 'BabyRuth', 'AlmondJoy'), ('MilkyWay', 'Hershey', 'BabyRuth', 'Snickers'), ('Cadbury', 'KitKat', 'BabyRuth', 'AlmondJoy'), ('MilkyWay', 'HeathBar', 'Snickers', 'Twix'), ('MilkyWay', 'HeathBar', 'Twix', 'AlmondJoy'), ('Cadbury', 'Snickers', 'BabyRuth', 'AlmondJoy'), ('MilkyWay', 'HeathBar', 'Snickers', 'AlmondJoy'), ('Cadbury', 'KitKat', 'Hershey', 'MilkyWay'), ('Snickers', 'AlmondJoy', 'BabyRuth', 'HeathBar'), ('Cadbury', 'KitKat', 'MilkyWay', 'AlmondJoy'), ('MilkyWay', 'HeathBar', 'Snickers', 'BabyRuth'), ('MilkyWay', 'HeathBar', 'KitKat', 'AlmondJoy'), ('Hershey', 'Snickers', 'AlmondJoy', 'BabyRuth'), ('MilkyWay', 'Hershey', 'AlmondJoy', 'Snickers'), ('Cadbury', 'KitKat', 'Hershey', 'BabyRuth'), ('MilkyWay', 'Hershey', 'AlmondJoy', 'HeathBar'), ('MilkyWay', 'Snickers', 'BabyRuth', 'AlmondJoy'), ('Hershey', 'HeathBar', 'AlmondJoy', 'BabyRuth'), ('Cadbury', 'KitKat', 'Hershey', 'Twix'), ('Hershey', 'BabyRuth', 'AlmondJoy', 'KitKat'), ('MilkyWay', 'Hershey', 'BabyRuth', 'KitKat'), ('Cadbury', 'MilkyWay', 'AlmondJoy', 'HeathBar'), ('Hershey', 'Snickers', 'AlmondJoy', 'HeathBar'), ('Cadbury', 'KitKat', 'Hershey', 'AlmondJoy'), ('Hershey', 'Snickers', 'HeathBar', 'BabyRuth'), ('Cadbury', 'KitKat', 'HeathBar', 'Twix'), ('MilkyWay', 'Hershey', 'AlmondJoy', 'BabyRuth'), ('MilkyWay', 'Hershey', 'KitKat', 'Snickers'), ('Cadbury', 'Twix', 'AlmondJoy', 'HeathBar'), ('MilkyWay', 'HeathBar', 'BabyRuth', 'KitKat'), ('Cadbury', 'KitKat', 'HeathBar', 'AlmondJoy'), ('Cadbury', 'KitKat', 'MilkyWay', 'HeathBar'), ('MilkyWay', 'Hershey', 'HeathBar', 'BabyRuth'), ('MilkyWay', 'Hershey', 'HeathBar', 'Snickers'), ('MilkyWay', 'HeathBar', 'Twix', 'KitKat'), ('MilkyWay', 'Hershey', 'AlmondJoy', 'KitKat'), ('Cadbury', 'BabyRuth', 'AlmondJoy', 'HeathBar')]
+Size of Candidate Itemsets: 37
+======= Candidate Sets 4 (C4) =======
+Opening file to read from disk...
+Itemset: ('MilkyWay', 'HeathBar', 'BabyRuth', 'AlmondJoy') | Count: 7
+Itemset: ('MilkyWay', 'Hershey', 'BabyRuth', 'Snickers') | Count: 6
+Itemset: ('Cadbury', 'KitKat', 'BabyRuth', 'AlmondJoy') | Count: 7
+Itemset: ('MilkyWay', 'HeathBar', 'Snickers', 'Twix') | Count: 3
+Itemset: ('MilkyWay', 'HeathBar', 'Twix', 'AlmondJoy') | Count: 5
+Itemset: ('Cadbury', 'Snickers', 'BabyRuth', 'AlmondJoy') | Count: 7
+Itemset: ('MilkyWay', 'HeathBar', 'Snickers', 'AlmondJoy') | Count: 7
+Itemset: ('Cadbury', 'KitKat', 'Hershey', 'MilkyWay') | Count: 6
+Itemset: ('Snickers', 'AlmondJoy', 'BabyRuth', 'HeathBar') | Count: 8
+Itemset: ('Cadbury', 'KitKat', 'MilkyWay', 'AlmondJoy') | Count: 6
+Itemset: ('MilkyWay', 'HeathBar', 'Snickers', 'BabyRuth') | Count: 7
+Itemset: ('MilkyWay', 'HeathBar', 'KitKat', 'AlmondJoy') | Count: 4
+Itemset: ('Hershey', 'Snickers', 'AlmondJoy', 'BabyRuth') | Count: 7
+Itemset: ('MilkyWay', 'Hershey', 'AlmondJoy', 'Snickers') | Count: 6
+Itemset: ('Cadbury', 'KitKat', 'Hershey', 'BabyRuth') | Count: 5
+Itemset: ('MilkyWay', 'Hershey', 'AlmondJoy', 'HeathBar') | Count: 6
+Itemset: ('MilkyWay', 'Snickers', 'BabyRuth', 'AlmondJoy') | Count: 8
+Itemset: ('Hershey', 'HeathBar', 'AlmondJoy', 'BabyRuth') | Count: 6
+Itemset: ('Cadbury', 'KitKat', 'Hershey', 'Twix') | Count: 3
+Itemset: ('Hershey', 'BabyRuth', 'AlmondJoy', 'KitKat') | Count: 6
+Itemset: ('MilkyWay', 'Hershey', 'BabyRuth', 'KitKat') | Count: 5
+Itemset: ('Cadbury', 'MilkyWay', 'AlmondJoy', 'HeathBar') | Count: 5
+Itemset: ('Hershey', 'Snickers', 'AlmondJoy', 'HeathBar') | Count: 5
+Itemset: ('Cadbury', 'KitKat', 'Hershey', 'AlmondJoy') | Count: 8
+Itemset: ('Hershey', 'Snickers', 'HeathBar', 'BabyRuth') | Count: 5
+Itemset: ('Cadbury', 'KitKat', 'HeathBar', 'Twix') | Count: 6
+Itemset: ('MilkyWay', 'Hershey', 'AlmondJoy', 'BabyRuth') | Count: 7
+Itemset: ('MilkyWay', 'Hershey', 'KitKat', 'Snickers') | Count: 3
+Itemset: ('Cadbury', 'Twix', 'AlmondJoy', 'HeathBar') | Count: 6
+Itemset: ('MilkyWay', 'HeathBar', 'BabyRuth', 'KitKat') | Count: 3
+Itemset: ('Cadbury', 'KitKat', 'HeathBar', 'AlmondJoy') | Count: 6
+Itemset: ('Cadbury', 'KitKat', 'MilkyWay', 'HeathBar') | Count: 5
+Itemset: ('MilkyWay', 'Hershey', 'HeathBar', 'BabyRuth') | Count: 5
+Itemset: ('MilkyWay', 'Hershey', 'HeathBar', 'Snickers') | Count: 5
+Itemset: ('MilkyWay', 'HeathBar', 'Twix', 'KitKat') | Count: 5
+Itemset: ('MilkyWay', 'Hershey', 'AlmondJoy', 'KitKat') | Count: 6
+Itemset: ('Cadbury', 'BabyRuth', 'AlmondJoy', 'HeathBar') | Count: 7
+Finished counting. Closing file...
+======= Frequent Itemsets 4 (F4) =======
+Frequent Itemset: ('MilkyWay', 'HeathBar', 'BabyRuth', 'AlmondJoy') | Count: 7
+Frequent Itemset: ('Cadbury', 'KitKat', 'BabyRuth', 'AlmondJoy') | Count: 7
+Frequent Itemset: ('Cadbury', 'Snickers', 'BabyRuth', 'AlmondJoy') | Count: 7
+Frequent Itemset: ('MilkyWay', 'HeathBar', 'Snickers', 'AlmondJoy') | Count: 7
+Frequent Itemset: ('Snickers', 'AlmondJoy', 'BabyRuth', 'HeathBar') | Count: 8
+Frequent Itemset: ('MilkyWay', 'HeathBar', 'Snickers', 'BabyRuth') | Count: 7
+Frequent Itemset: ('Hershey', 'Snickers', 'AlmondJoy', 'BabyRuth') | Count: 7
+Frequent Itemset: ('MilkyWay', 'Snickers', 'BabyRuth', 'AlmondJoy') | Count: 8
+Frequent Itemset: ('Cadbury', 'KitKat', 'Hershey', 'AlmondJoy') | Count: 8
+Frequent Itemset: ('MilkyWay', 'Hershey', 'AlmondJoy', 'BabyRuth') | Count: 7
+Frequent Itemset: ('Cadbury', 'BabyRuth', 'AlmondJoy', 'HeathBar') | Count: 7
+
+
+
+After Generation: [('MilkyWay', 'HeathBar', 'Snickers', 'BabyRuth', 'AlmondJoy')]
+Size of Candidate Itemsets: 1
+After Pruning: [('MilkyWay', 'HeathBar', 'Snickers', 'BabyRuth', 'AlmondJoy')]
+Size of Candidate Itemsets: 1
+======= Candidate Sets 5 (C5) =======
+Opening file to read from disk...
+Itemset: ('MilkyWay', 'HeathBar', 'Snickers', 'BabyRuth', 'AlmondJoy') | Count: 6
+Finished counting. Closing file...
+======= Frequent Itemsets 5 (F5) =======
+
+
+
+Algorithm running time: 0.03202986717224121 seconds
+Verification Complete!
+Max Frequent Itemset Size: 4
+There are 116 Frequent Itemsets: 
+ [('Hershey', 'Snickers', 'AlmondJoy'), ('KitKat', 'BabyRuth'), ('Twix', 'BabyRuth'), ('KitKat', 'AlmondJoy'), ('MilkyWay', 'Hershey'), ('Cadbury', 'AlmondJoy', 'Hershey'), ('Cadbury', 'BabyRuth', 'AlmondJoy'), ('AlmondJoy', 'BabyRuth'), ('Snickers', 'AlmondJoy', 'BabyRuth'), ('MilkyWay', 'AlmondJoy', 'BabyRuth'), ('Hershey', 'Snickers', 'HeathBar'), ('MilkyWay', 'HeathBar'), ('MilkyWay', 'HeathBar', 'Snickers'), ('Snickers', 'AlmondJoy', 'BabyRuth', 'HeathBar'), ('MilkyWay', 'Snickers'), ('MilkyWay', 'HeathBar', 'Snickers', 'BabyRuth'), 'KitKat', ('MilkyWay', 'AlmondJoy'), ('Cotton Candy', 'KitKat'), ('Cadbury', 'BabyRuth', 'HeathBar'), ('MilkyWay', 'HeathBar', 'Twix'), ('MilkyWay', 'Snickers', 'BabyRuth', 'AlmondJoy'), 'BabyRuth', ('Hershey', 'BabyRuth', 'AlmondJoy'), ('Cotton Candy', 'HeathBar'), ('MilkyWay', 'HeathBar', 'KitKat'), 'Hershey', ('KitKat', 'Twix'), ('Snickers', 'BabyRuth'), ('Cotton Candy', 'BabyRuth', 'AlmondJoy'), ('AlmondJoy', 'BabyRuth', 'HeathBar'), ('MilkyWay', 'HeathBar', 'AlmondJoy'), ('MilkyWay', 'Hershey', 'AlmondJoy', 'BabyRuth'), ('MilkyWay', 'Hershey', 'KitKat'), ('Cadbury', 'Twix', 'AlmondJoy'), ('Cotton Candy', 'Cadbury'), ('KitKat', 'BabyRuth', 'AlmondJoy'), ('Hershey', 'KitKat', 'AlmondJoy'), ('Cadbury', 'Twix'), ('Cotton Candy', 'BabyRuth'), ('Hershey', 'BabyRuth'), ('Twix', 'HeathBar'), ('Cotton Candy', 'AlmondJoy'), ('Cadbury', 'BabyRuth', 'AlmondJoy', 'HeathBar'), ('Cadbury', 'Twix', 'HeathBar'), ('Hershey', 'Twix'), ('MilkyWay', 'Twix'), ('Cotton Candy', 'MilkyWay'), ('MilkyWay', 'Snickers', 'AlmondJoy'), ('MilkyWay', 'AlmondJoy', 'Twix'), 'Cotton Candy', ('MilkyWay', 'Hershey', 'AlmondJoy'), ('Cadbury', 'Snickers', 'BabyRuth'), ('Cadbury', 'KitKat'), ('MilkyWay', 'HeathBar', 'BabyRuth', 'AlmondJoy'), ('Hershey', 'HeathBar', 'AlmondJoy'), ('Cadbury', 'KitKat', 'BabyRuth', 'AlmondJoy'), ('Cotton Candy', 'Hershey'), ('Twix', 'AlmondJoy'), ('Cadbury', 'KitKat', 'Hershey'), ('Cadbury', 'MilkyWay', 'AlmondJoy'), 'Twix', ('Cadbury', 'Snickers', 'BabyRuth', 'AlmondJoy'), ('Cotton Candy', 'HeathBar', 'BabyRuth'), ('MilkyWay', 'HeathBar', 'Snickers', 'AlmondJoy'), ('Cadbury', 'KitKat', 'MilkyWay'), ('AlmondJoy', 'HeathBar'), ('MilkyWay', 'HeathBar', 'BabyRuth'), ('MilkyWay', 'KitKat', 'AlmondJoy'), ('MilkyWay', 'Hershey', 'HeathBar'), ('Hershey', 'Snickers'), ('MilkyWay', 'Snickers', 'BabyRuth'), 'MilkyWay', ('Cotton Candy', 'Twix'), ('Cotton Candy', 'Snickers'), ('MilkyWay', 'KitKat'), ('KitKat', 'AlmondJoy', 'HeathBar'), ('Cadbury', 'MilkyWay', 'HeathBar'), ('Hershey', 'Snickers', 'AlmondJoy', 'BabyRuth'), ('Snickers', 'AlmondJoy', 'HeathBar'), ('Cadbury', 'KitKat', 'BabyRuth'), ('MilkyWay', 'BabyRuth'), ('BabyRuth', 'HeathBar'), ('Hershey', 'HeathBar', 'BabyRuth'), ('Cadbury', 'KitKat', 'HeathBar'), 'Cadbury', ('Cadbury', 'Snickers'), ('Cadbury', 'KitKat', 'Hershey', 'AlmondJoy'), ('Snickers', 'AlmondJoy'), ('Cadbury', 'MilkyWay'), ('Cotton Candy', 'Snickers', 'HeathBar'), 'Snickers', ('Hershey', 'Snickers', 'BabyRuth'), ('Cadbury', 'Snickers', 'AlmondJoy'), ('MilkyWay', 'Hershey', 'BabyRuth'), ('Twix', 'BabyRuth', 'AlmondJoy'), ('Hershey', 'HeathBar'), ('KitKat', 'Twix', 'HeathBar'), ('Cadbury', 'BabyRuth'), ('Snickers', 'BabyRuth', 'HeathBar'), ('Twix', 'AlmondJoy', 'HeathBar'), ('Cadbury', 'AlmondJoy', 'HeathBar'), ('Cadbury', 'AlmondJoy'), ('Cadbury', 'Hershey'), ('Cadbury', 'KitKat', 'AlmondJoy'), ('Cotton Candy', 'Cadbury', 'AlmondJoy'), ('Hershey', 'BabyRuth', 'KitKat'), ('Hershey', 'KitKat'), ('Hershey', 'AlmondJoy'), ('MilkyWay', 'Hershey', 'Snickers'), ('Snickers', 'HeathBar'), ('Cadbury', 'HeathBar'), 'AlmondJoy', ('KitKat', 'HeathBar'), 'HeathBar', ('Cadbury', 'KitKat', 'Twix')]
